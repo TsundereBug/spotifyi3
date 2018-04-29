@@ -28,6 +28,8 @@ Now copy the `spotifyi3-assembly-0.1.jar` to `$cdir` with the name
 `spotifyi3.jar`.
 [Create a config file
 named `$conf.conf` in `$cidr`.](https://i3wm.org/i3status/manpage.html)
+Make sure this configuration sets i3status to `i3bar` mode or
+else JSON parsing will fail and you will get errors!
 Then, create `$cdir/spotbar.sh` with the following content:
 ```sh
 #!/bin/sh
